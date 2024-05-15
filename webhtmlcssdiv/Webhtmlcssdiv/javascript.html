@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+</head>
+<body></body>
+<script >
+
+    $(document).ready(function(){
+
+       $('#cargarDatos').click(function(){
+
+        alert("Hola");
+
+        var Nombre=document.getElementById("nombre").value;
+
+        var Sueldo=document.getElementById("sueldo").value;
+
+        var nFil = $("#Mytable tr").length;
+
+        alert(nFil);
+
+        var fila='<tr id="row'+nFil+'"><td>' + nFil+ '</td><td>' + Nombre + '</td><td>'+Sueldo+'</td><td><button type="button" name="remove" id="' + nFil + 
+
+            '" class="btn btn-danger btn_remove">Quitar</button></td></tr>'      
+
+        $('#Mytable tr:last').after(fila);
+
+        $("#registros").text(""); //esta instruccion limpia el div adicioandos para que no se vayan acumulando
+
+        var nFilas = $("#Mytable tr").length;
+
+        $("#registros").append(nFilas - 1);
+
+        document.getElementById("nombre").value = "";
+
+        document.getElementById("sueldo").value = "";
+
+        document.getElementById("nombre").focus();
+
+       });
+
+       $(document).on('click','.btn_remove',function(){
+
+        var button_id=$(this).attr("id");
+
+        $('#row' + button_id + '').remove();        
+
+        $("#registros").text("");
+
+        var nFilas = $("#Mytable tr").length;
+
+        $("#registros").append(nFilas - 1);
+
+        alert(button_id);
+
+       });           
+
+    });
+
+</script>
+</html>

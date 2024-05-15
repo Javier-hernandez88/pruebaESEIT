@@ -1,0 +1,29 @@
+<!DOCTYPE html<!DOCTYPE html>
+<html lang="es">
+	<head>
+	    <meta charset="utf-8"/>
+		<title>Estructuras de Control</title>
+	</head>
+	<body>
+		<h1>REPETITIVAS WHILE</h1>
+        <p>Las tablas de multiplicar son muy útiles, ya que funcionan como un elemento visual para conseguir las respuestas de forma rápida.</p>
+		<img src="./img/Tablas.jpg">
+	</body>
+		<footer><strong>Javier Hernadez Useche</strong></footer>
+		<script>
+		    var tabla,i;
+            tabla=parseInt(prompt("Ingrese la tabla de multiplicar que desea"));
+	        i=1;
+	      while(i<=10){
+             var resultado=tabla*i;
+		     if (tabla && parseInt) {
+			    document.write("<h5>"+"<strong>"+tabla+ " X " +i+ "= " + resultado+"</strong>"+"<br>"+"</h5>");
+			} 
+			 else {
+				document.write("<br>"+"<h1>ERROR-NO ES UNA TABLA DE MULTIPLICAR</h1>");
+			}
+			 i++;
+			}
+			document.write("<h1></strong>"+"Tabla del "+tabla+"</strong></h1>");
+		</script>
+</html>

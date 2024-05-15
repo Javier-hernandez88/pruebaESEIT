@@ -1,0 +1,331 @@
+
+body {
+  background-image: url('/img/background.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  position: relative;
+}
+ h1 {
+  color:black;
+  text-align: center;
+  text-shadow: 3px 3px 5px #04AA6D;
+}
+h1:hover{
+  color:black;
+  text-shadow: 3px 3px 5px tomato;
+} 
+h2 {
+  color:black;
+  text-align: center;
+  text-shadow: 2px 2px 4px  #04AA6D;
+}
+h2:hover{
+  color:black;
+  text-shadow: 3px 3px 5px tomato;
+}
+h3{
+  color:tomato;
+  text-shadow: 2px 2px 4px #000000;
+  background-color:#04AA6D;
+  font-family: "Lucida Handwriting";
+}
+h3:hover{
+  color: #000;
+}
+h4{
+  color:black;
+  text-align: center;
+  text-shadow: 2px 2px 4px  #04AA6D;
+}
+h4:hover{
+  color:black;
+  text-shadow: 3px 3px 5px tomato;
+}
+
+.barralateral{
+  text-align: right;
+  position: right;
+}
+#mapa{
+ display: flex;
+ justify-content:center;
+}
+#manual{
+display: flex;
+justify-content:center;
+}
+#whatsapp{
+display: flex;
+ justify-content:center;
+}
+.container1 {
+  background-color:#fff9cb;
+  width:80%;
+  color:#04AA6D;
+  overflow:auto;
+  width:34%;  
+  float:right;
+  text-align:center;
+  border-radius:25px;
+  border: 4px solid #04AA6D;
+  font-family:sans-serif;
+  background-size: cover;
+
+}
+.container1:hover{
+  color:black;
+  border: 5px solid tomato;
+}
+.container2{
+  background-color:#FFC0C7;
+  color:#04AA6D;
+  overflow:auto;
+  width:33%;  
+  float:left;
+  position:center;
+  text-align:center;
+  border-radius:25px;
+  border: 4px solid #04AA6D;
+  font-family:sans-serif;
+  background-size: cover;
+}
+.container2:hover{
+  color:black;
+  border: 5px solid tomato;
+}
+.container3{
+  background-color:#D9EEE1;
+  color:#04AA6D;
+  overflow:auto;
+  width:33%;  
+  float:left;
+  text-align:center;
+  border-radius:25px;
+  border: 4px solid tomato;
+  font-family:sans-serif;
+  background-size: cover;
+
+}
+.container3:hover{
+  color:black;
+  border: 5px solid #04AA6D;
+}
+#desplegar{
+  background-color: #04AA6D;
+  color: tomato;
+  text-align:center;
+  border-radius:18px;
+  border: 4px solid tomato;
+  font-family:sans-serif;
+  background-size: cover;
+}
+#desplegar0{
+  color: #04AA6D;
+  border-radius:18px;
+}
+#desplegar1{
+  background-color: #04AA6D;
+  color:black;
+  text-align:center;
+  border-radius:18px;
+  border: 4px solid tomato;
+  font-family:sans-serif;
+  background-size: cover;
+}
+#desplegar1:hover{
+  color: white;
+  background-color: tomato;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%; 
+  text-align: center;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;  text-align: center;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;
+  text-align: center;}
+
+#customers tr:hover {background-color: #ddd;
+  text-align: center;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+select {
+  width: 30%;
+  padding: 8px 20px;
+  border-radius: 15px;
+  color: black;
+  background-color: #04AA6D;
+  border:3px solid tomato;
+}
+select:hover{
+  background-color:black;
+  border:2px solid#04AA6D;
+  color: tomato;  
+}
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: tomato;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.button {
+  background-color: tomato; 
+  color: #04AA6D; 
+  border: 2px solid #04AA6D;
+}
+
+.button:hover{
+ background-color: #04AA6D;
+  color: tomato;
+  transition-duration: 0.4s;
+  border:2px solid tomato;
+}
+.cabecera{
+  position: relative;
+  font-family: Arial;
+  background-position:center center;
+  background-repeat:no-repeat ;
+  background-size:cover;
+  background-attachment:fixed;
+}
+.text-block{
+  font-size:1.5vw;
+  display: block;
+  text-align:right; 
+  font-family:sans-serif;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.text-block:hover{
+  color:#04AA6D;
+}
+#inscripciones{
+  font-size: 5vw;
+}
+ul.a {
+  list-style-type: circle;
+}
+.navbar {
+  width: 100%;
+  background-color:none;
+  overflow: auto;
+
+}
+.navbar a {
+  float: right;
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border:2px solid tomato;
+  background-color: #04AA6D;
+  border-radius: 20px;
+}
+.navbar a:hover {
+  background-color: #000;
+  color:tomato;
+  border:3px solid #04AA6D;
+}
+.active {
+  background-color: #04AA6D;
+}
+.navbar input[type=text] {
+  background-color: #04AA6D;
+  color: black;
+  float:center;
+  padding: 10px;
+  border:2px solid tomato;
+  margin-top: 16px;
+  margin-right: 8px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.navbar input:hover[type=text] {
+  background-color: black;
+  border:3px solid #04AA6D;
+  color: tomato;
+ 
+}  
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.formulario{
+  border-radius: 25px;}
+  
+ .formulario{
+  padding: 2px;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  border:2px solid tomato;
+  background-color: #04AA6D;
+  border-radius: 10px;
+}
+.formulario:hover{
+  background-color: black;
+  border:4px solid #04AA6D;
+  color: tomato;
+}
+.deep{
+  background-color: #04AA6D;
+  border: none;
+  color: tomato;
+  padding:18px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.deep{
+  background-color: tomato; 
+  color: #04AA6D; 
+  border: 2px solid #04AA6D;
+}
+.deep:hover{
+ background-color: #04AA6D;
+  color: tomato;
+  transition-duration: 0.4s;
+  border:2px solid tomato;
+}
+.tmultiplicar{
+  border-radius: 25px;
+  position: right;
+}
+.edad{
+  border-radius: 25px;
+  position: right;
+
+}
